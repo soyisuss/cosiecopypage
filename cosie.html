@@ -1,0 +1,240 @@
+<!--Creacion de formulario de COSIE-->
+<html lang="en">
+<!--Head con metadatos-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSIE</title>
+</head>
+<!--Cuerpo de la pagina-->
+<body>
+    <!--Cabecera de la pagina con datos de la escueela y de lo que es el documento-->
+<header>
+    <div class="header-container">
+        <!--Uso de tablas para la organizacion del documento-->
+        <table align="center">
+            <tr>
+                <td><img id="escudo" src="img/escudo.png" alt="escudo"></td>
+                <td>
+                    <div>
+                        <h2 align="center">INSTITUTO POLITECNICO NACIONAL</h2>
+                        <h4 align="center">SECRETARIA ACADEMICA</h4>
+                        <h3 align="center">COMISION DE SITUACION ESCOLAR</h3>
+                        <h3 align="center">DEL CONSEJO GENERAL CONSULTIVO</h3>
+                        <h5 align="right">Formato de solicitud (COSIE-01)</h5>
+                        <h5 align="right"><b>Ciudad de Mexico a _____ de_de 202_</b></h5>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+<br>
+<!--Titulo con instrucciones para el formato-->
+    <h6 align="center"> Favor de llenar el formulario con letra legible</h6>
+    <!--Seccion de datos personales y estadisticos del solicitante utilizando los elementos de tablas-->
+    <section>
+        <table align="center" border="1px">
+            <tr>
+                <td colspan="4" align="center"><b> DATOS PERSONALES DEL SOLICITANTE</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">APELLIDOS:</td>
+                <td colspan="2">NOMBRE(S):</td>
+            </tr>
+            <tr>
+                <td>NO. BOLETA:</td>
+                <td>UNIDAD ACADEMICA:</td>
+                <td colspan="2">PROGRAMA ACADEMICO:</td>
+            </tr>
+            <tr>
+                <td colspan="4">DOMICILIO PARTICULAR:</td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center"> <b>INFORMACION SOLICITADA CON MOTIVOS ESTADISTICOS</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">TIENE DEPENDIENTES ECONOMICOS (Conyuge):</td>
+                <td>Si</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td colspan="2">TIENE DEPENDIENTES ECONOMICOS MENORES DE EDAD(Hijos o Hijas):</td>
+                <td>Si</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>TUVO EMBARAZO:</td>
+                <td>PROPIO</td>
+                <td>O DE LA PAREJA</td>
+                <td>NO DESEO CONTESTAR</td>
+            </tr>
+            <tr>
+                <td colspan="2">TELEFONO CELULAR:</td>
+                <td colspan="2">CORREO ELECTRONICO:</td>
+            </tr>
+            <tr>
+                <td colspan="4">ULTIMO SEMESTRE EN EL QUE ESTUVO INSCRITO:</td>
+            </tr>
+            <tr>
+                <td colspan="2">FECHA DEL ULTIMO DICTAMEN DE SITUACION ESCOLAR:</td>
+                <td> COSIE DE CTCE</td>
+                <td> COSIE DE CGC</td>
+            </tr>
+        </table>
+    </section>
+</br>
+
+</br>
+
+<!--Seccion de situacion escolar usando fieldset y tablas para la estructura-->
+    <section>
+        <fieldset style="width: 50pc; margin: auto;">
+            <legend> SITUACION ESCOLAR ACTUAL</legend>
+            <table>
+                <tr>
+                    <td style="padding-right: 20px;">1.ADEUDOS DE UNIDADES DE APRENDIZAJE DESFASADAS(Art. 98 RI y 52 RGE):</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check1"/></td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">2.NO HABER SOLICITADI REINSCRIPCION EN EL PERIODO ESCOLAR ANTERIOR (Art.57 RGE):</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check2"/></td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">3.RECONOCIMIENTO DE CALIFICACIONES ACREDITADAS:</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check3"/></td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">4.AMPLIACION DE TIEMPO PARA LA CONCLUSION DE ESTUDIOS (Aer.49 RGE):</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check4"/></td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">5.INCUMPLIMIENTO DE DICTAMEN DE SITUACION ESCOLAR ANTERIOR:</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check5"/></td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">6.OTROS (ESPECIFIQUE)_</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check6"/></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+    </section>
+    </br>
+
+
+
+    <br>
+    <br>
+
+    <!--Seccion de justificacion de la peticion usando fieldset y tabkas-->
+    <section>
+        <fieldset style="width: 50pc; margin: auto;">
+            <legend> EXPLIQUE DE FORMA CONCRETA SU PETICION:</legend>
+            <table>
+                <tr>
+                    <td style="padding-right: 20px;">_</td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">_</td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">_</td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 20px;">_</td>
+                </tr>
+            </table>
+            <p>MARQUE CON UNA “X” LA(S) CAUSA(S) QUE ORIGINÓ QUE SE ENCUENTRE EN SU SITUACIÓN ESCOLAR ACTUAL</p>
+            <table border="1px" style="width: 50pc;">
+                <tr>
+                    <td>SALUD</td>
+                    <td>ECONOMICA</td>
+                    <td>FAMILIAR</td>
+                    <td>LEGAL</td>
+                    <td>LABORAL</td>
+                    <td>ADMINISTRATIVA</td>
+                </tr>
+            </table>
+            <br>
+            <table align="center">
+                <tr>
+                    <td>OTRAS</td>
+                    <td><input type="checkbox" style="width: 13px; height: 13px;" name="checkOTRAS"/></td>
+                    <td>CUAL:_________________________________________________________________
+                    </td>
+                </tr>
+            </table>
+<!--Seccion de documentacion anexa usando checkbox-->
+            <p><b>MARQUE LA DOCUMENTACION QUE ANEXA PARA ANALIZAR SU SITUACION ACADEMICA:</b>
+            </p>
+
+            <table>
+                <tr>
+                    <td>BOLETA GLOBAL DE CALIFICACIONES CERTIFICADA</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check2.1"/></td>
+                    <td>DOCUMENTOS PROBATORIO</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check2.1"/></td>
+                </tr>
+                <tr>
+                    <td>CARTA DE EXPOSICION DE MOTIVOS</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check2.1"/></td>
+                    <td>OTROS</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check2.1"/></td>
+                </tr>
+                <tr>
+                    <td>DICTAMENES ANTERIORES</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check2.1"/></td>
+                    <td>                  </td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check2.1"/></td>
+                </tr>
+                <tr>
+                    <td>BAJAS ANTERIORES</td>
+                    <td><input type="checkbox" style="width: 30px; height: 30px;" name="check2.1"/></td>
+                </tr>
+            </table>
+        </fieldset>
+    </section>
+    <br>
+    <br>
+<!--Seccion de autorizacion de comunicacion usando solo titulos-->
+    <section>
+        <h6 align="center">AUTORIZO RECIBIT LAS COMUNICACIONES RELATIVAS A ESTA SOLICITUD EN EL SIGUIENTE CORREO ELECTRONICO:</h6>
+        <h6 align="center">_</h6>
+    </section>
+    <br>
+
+<!--Seccion de nombre y firma del alumno y de la unidad academica con uso de tablas-->
+    <section>
+        <table align="center" border="1px" style="width: 50pc; margin: auto;">
+            <tr>
+                <td align="center"><d> NOMBRE Y FIRMA DEL ALUMNO</d></td>
+                <td align="center"><d> NOMBRE ,FIRMA Y FECHA DE RECEPCION DEL EXPEDIENTE POR LA UNIDAD ACADEMICA</d></td>
+            </tr>
+
+            <tr>
+                <td style="height: 70px;">&nbsp;</td>
+                <td style="height: 70px;">&nbsp;</td>
+            </tr>
+        </table>
+    </section>
+
+</main>
+</body>
+<!--Pie de pagina con aviso de privacidad-->
+<footer >
+   <table align="center">
+    <tr>
+        <td align="center">
+        <div style="text-align: center;" > 
+            <small> <b>Aviso de Privacidad.</b>Los datos contenidos en esta solicitud están en posesión de la Comisión de Situación Escolar del Consejo General Consultivo del Instituto Politécnico Nacional,
+                tendrán el carácter de información confidencial en términos de lo dispuesto por los artículos 18 y 19 de la Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental;
+                por lo cual, no podrán ser difundidos en forma alguna y deberá evitarse cualquier manejo de los mismos que contravenga lo dispuesto en los artículos 20, 21 y 24 de la citada ley, y en
+                caso de incumplimiento será sancionado conforme a lo establecido en la propia ley y en la normatividad institucional vigente.</small>
+           
+        </div>
+    </td>
+    </tr>
+    </table>
+</footer>
+</html>
